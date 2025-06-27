@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>刘振威的个人网站简历</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar" role="banner" aria-label="页面控制栏">
+  <button id="lang-toggle" aria-pressed="false" aria-label="切换语言">English</button>
+  <button id="theme-toggle" aria-pressed="false" aria-label="切换暗黑模式">暗黑模式</button>
+  <a href="/image/lzw.pdf" download="lzw_简历.pdf" aria-label="下载简历">
+    <button id="download-btn">下载简历</button>
+  </a>
+</header>
+
+<div class="container" role="main" aria-label="刘振威个人网站简历" data-lang="zh">
+
+  <aside class="sidebar" aria-label="个人信息和联系方式">
+    <h1 id="name">刘振威</h1>
+    <p class="bio" id="bio">
+      2003年7月出生<br/>
+      江西工业工程职业技术学院22届<br/>
+      软件技术专业
+    </p>
+
+    <h2 id="contact-title">联系方式</h2>
+    <ul>
+      <li>📧 <span id="email"></span></li>
+      <li>💻 <a href="https://github.com/qf12147" target="_blank" rel="noopener noreferrer">github.com/qf12147</a></li>
+      <li>📍 江西省萍乡市</li>
+      <li>
+        微信扫一扫<br/>
+        <img src="image\my-wx.png" alt="微信二维码" class="wechat-qr" />
+      </li>
+    </ul>
+  </aside>
+
+  <main class="content">
+
+    <section aria-labelledby="about-title">
+      <h2 id="about-title">关于我</h2>
+      <p id="about-text">我是一名踏实稳重的软件技术专业学生，热爱编程和技术探索。具备良好的逻辑思维和学习能力，喜欢将技术和创意结合，追求优雅且高效的解决方案。</p>
+    </section>
+
+    <section aria-labelledby="skills-title">
+      <h2 id="skills-title">专业技能</h2>
+      <ul id="skills-list">
+        <li>Java、JavaScript、HTML/CSS、C语言、Python</li>
+        <li>Vue2/Vue3、响应式设计、组件开发</li>
+        <li>Java Web、Spring Boot（基础）、JSP、Servlet</li>
+        <li>MySQL数据库、Navicat管理工具</li>
+        <li>VS Code、IntelliJ IDEA、HBuilderX</li>
+        <li>Windows操作系统及常用软件使用、Linux基础、Photoshop基础</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="projects-title">
+      <h2 id="projects-title">项目经验</h2>
+      <ul id="projects-list">
+        <li><strong>个人博客系统</strong> - 基于Vue3和Spring Boot，完成用户注册、文章发布、评论功能。</li>
+        <li><strong>校园信息管理系统</strong> - Java Web开发，包含学生信息及成绩管理模块。</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="hobby-title">
+      <h2 id="hobby-title">兴趣爱好</h2>
+      <div class="hobby-tags" role="list" aria-label="兴趣爱好列表">
+        <span role="listitem" aria-label="听歌">🎧 听歌</span>
+        <span role="listitem" aria-label="运动">🏃 运动</span>
+        <span role="listitem" aria-label="摄影">📸 摄影</span>
+        <span role="listitem" aria-label="网上冲浪">🌐 网上冲浪</span>
+        <span role="listitem" aria-label="游戏">🎮 游戏</span>
+      </div>
+    </section>
+
+    <section aria-labelledby="self-eval-title">
+      <h2 id="self-eval-title">自我评价 / 职业目标</h2>
+      <p id="self-eval-text">
+        我注重代码质量和团队合作，渴望在软件开发领域不断提升自我，立志成为一名技术全面且具创新力的软件工程师。
+      </p>
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
